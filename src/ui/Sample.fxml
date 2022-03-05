@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="357.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListController">
+   <center>
+      <TableView fx:id="tableView" prefHeight="200.0" prefWidth="501.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="income" minWidth="0.0" prefWidth="118.0" text="Ingresos" />
+            <TableColumn fx:id="expenses" minWidth="0.0" prefWidth="121.0" text="Gastos" />
+            <TableColumn fx:id="date" prefWidth="127.0" text="Fecha" />
+            <TableColumn fx:id="dateContact1" prefWidth="134.0" text="Balance" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
